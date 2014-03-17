@@ -1,15 +1,17 @@
-neo_keyboard_layout
+neo keyboard layout
 ===================
 
-## Inspired by [NEO keyboard layout](http://www.neo-layout.org/)
+## Inspired by [German keyboard layout: NEO](http://www.neo-layout.org/)
 
 ## Variations
 
-- Neo-extended dvpe (almost done)
-- Neo-extended dvp (not started yet)
-- Neo-extended qwerty (not started yet)
+- neo-extended dvpe (almost done)
+- neo-extended dvp (not started yet)
+- neo-extended qwerty (not started yet)
 
-
+## How to?
+- run the specific script, and that's all 
+- if you want to make permanent, add it to your `~/.xinitrc` or `~/.profile`
 
 ## [Roadmap](/roadmap.md)
 - Mon Mar 17, Neo-extended DVPE almost done.
