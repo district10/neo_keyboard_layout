@@ -1,0 +1,180 @@
+!! Extended Programmer Dvorak Version 0.3 (NEO)
+!! Based on German Neo-Layout, http://www.neo-layout.org/
+!! Comments translated to English (with help of Google Translate)
+!! @Author: Gnat TANG
+!! @Date: Mar 16, 2014
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+!! To try the layout in this file, simply do xmodmap <file>.
+!! To load the layout in this file at X startup, simply store it as
+!! ~/.xmodmap
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! Levels
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! Level 1: normal
+! Level 2: Shift
+! Level 3: Mod3
+! Level 4: Mod4 (zum Markieren Shift+Mod4)
+! Level 5: Shift+Mod3
+! Level 6: Mod3+Mod4 (in dieser Reihenfolge!)
+! Level 7: wird (bis auf technisch bedingte Ausnahmen) nicht belegt
+! Multi_key=Compose (keine eigene Ebene): Mod3+Tab or right window key
+! Feststellen/Shift_Lock: Shift+Shift
+! Mod4_Lock: Mod4(rechts)+Mod4(links)
+
+! Reihenfolge der Ebenen in der Xmodmap:
+!            Ebene1  Ebene2  Ebene3  Ebene5  Ebene4  Ebene4+Sh  Ebene6 Ebene7
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! Modifier definition
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+clear Lock
+clear Mod2
+! Mod2 was NumLock !
+clear control
+clear Mod3
+clear Mod5
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! Control ('Caps', 'Comma' and 'Control_L')
+keycode 66 = Control_L Control_L Control_L Control_L Control_L Control_L
+keycode 48 = Control_R Control_R Control_R Control_R Control_R Control_R 
+keycode 37 = Control_L Control_L Control_L Control_L Control_L Control_L 
+add control = Control_R Control_L
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! Shift ('Shift's)
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! 50=left 62=right
+! Shift+Shift to produce CAPS_LOCK 
+keycode 50 =  Shift_L Shift_Lock
+keycode 62 =  Shift_R Shift_Lock
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! Mod2 ('Win_L')
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! to avoid troule with awesome window manager 
+! keycode 133 = Super_L
+! add Mod2 = Super_L
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! Mod3 ('Space' and 'Control_R') 
+!      (later we use xcape to do more fancy tricks, 
+!       making Mod3 produce space when pressed alone.
+!       about xcape: https://github.com/alols/xcape)
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+keycode 65  = ISO_Group_Shift ISO_Group_Shift ISO_First_Group NoSymbol
+keycode 105 = ISO_Group_Shift ISO_Group_Shift ISO_First_Group NoSymbol
+add Mod3 = ISO_First_Group
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! Mod4 ('Tab', '[' position)
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+keycode 23 = ISO_Level3_Shift  ISO_Level3_Shift  ISO_Group_Shift   ISO_Group_Shift  ISO_Level3_Lock  NoSymbol
+keycode 34 = ISO_Level3_Shift  ISO_Level3_Shift  ISO_Group_Shift   ISO_Group_Shift  ISO_Level3_Lock  NoSymbol
+! level4
+add Mod4 = ISO_Level3_Shift
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! general Lock ('BackSpace')
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! Shift_Lock & Mod4_Lock works, but not Mod3_Lock
+!keycode 22 = ISO_Lock  NoSymbol
+!add Lock = ISO_Lock
+
+!! *************************************************************************************************
+!! *************************************************************************************************
+!! *************************************************************************************************
+ 
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! main keyboard
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! Return key
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+keycode 36 = space     Return	   Multi_key	ISO_Level3_Lock
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! dead keys
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!            Ebene1		Ebene2		Ebene3		Ebene5		Ebene4		Ebene4+Sh	Ebene6		Ebene7
+! <TLDE>, <plus, equal>, <bracket_right>
+keycode 49 = dead_circumflex	dead_caron	U21BB		U02DE		dead_abovedot Pointer_EnableKeys dead_belowdot	NoSymbol
+keycode 21 = dead_grave		dead_cedilla	dead_abovering	dead_dasia	dead_diaeresis	NoSymbol	dead_macron	NoSymbol
+keycode 35 = dead_acute		dead_tilde	dead_stroke	dead_psili      dead_doubleacute	NoSymbol	dead_breve	NoSymbol
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! The first row (number Row)
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!      Level_1  Level_2	              Level_3	            Level_5		Level_4		Level_4+Sh	Level_6		Level_7
+
+keycode 10 = 1	degree		      onesuperior	    onesubscript	ordfeminine	NoSymbol	notsign		NoSymbol
+keycode 11 = 2	section		      twosuperior	    twosubscript	masculine	NoSymbol	logicalor	NoSymbol
+keycode 12 = 3	U2113		      threesuperior	    threesubscript	numerosign	NoSymbol	logicaland	NoSymbol
+keycode 13 = 4	guillemotright	      U203A		    femalesymbol	NoSymbol	NoSymbol	U22A5		NoSymbol
+keycode 14 = 5	guillemotleft	      U2039		    malesymbol		periodcentered	NoSymbol	U2221		NoSymbol
+keycode 15 = 6	dollar		      cent		    U26A5		sterling	NoSymbol	U2225		NoSymbol
+keycode 16 = 7	EuroSign	      yen		    U03F0		currency	NoSymbol	rightarrow	NoSymbol
+keycode 17 = 8	doublelowquotemark    singlelowquotemark    leftanglebracket	Tab		ISO_Left_Tab	infinity	NoSymbol
+keycode 18 = 9	leftdoublequotemark   leftsinglequotemark   rightanglebracket 	KP_Divide	KP_Divide	variation	NoSymbol
+keycode 19 = 0	rightdoublequotemark  rightsinglequotemark  zerosubscript	KP_Multiply	KP_Multiply	emptyset	NoSymbol
+keycode 20 = minus	emdash	      NoSymbol	    	    U2011		KP_Subtract	KP_Subtract	hyphen		NoSymbol 
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! The upper row
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!            Level_1	  Level_2          Level_3             Level_5		Level_4		Level_4+Sh	Level_6		Level_7
+
+keycode 24 = grave 	  asciitilde	   ampersand 	       NoSymbol 	NoSymbol 	NoSymbol 	NoSymbol 	NoSymbol
+keycode 25 = comma 	  less		   parenleft 	       U03F1		degree		KP_2		U21D2		NoSymbol
+keycode 26 = period	  greater	   bracketleft	       U03D1		degree		KP_3		U21A6		NoSymbol
+keycode 27 = 	k	     K		   asterisk	       Greek_kappa	exclamdown	NoSymbol	multiply	NoSymbol
+keycode 28 = 	y 	     Y		   colon 	       Greek_upsilon	period		KP_Decimal	nabla		NoSymbol
+
+keycode 29 = 	f	     F		   backslash		Greek_phi	KP_9		KP_9		Greek_PHI	Greek_PHI
+keycode 30 = 	g	     G		   apostrophe		Greek_gamma	KP_8		KP_8		Greek_GAMMA	Greek_GAMMA
+keycode 31 = 	c	     C		   quotedbl		Greek_chi	Up		Delete		U2102		NoSymbol
+keycode 32 = 	l	     L		   slash		Greek_lambda	Up		Up		Greek_LAMBDA	Greek_LAMBDA
+keycode 33 = 	z	     Z		   NoSymbol		Greek_zeta	Undo		Redo		U2124		NoSymbol
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! The home row (middle row)
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!            Level_1	  Level_2          Level_3             Level_5		Level_4		Level_4+Sh	Level_6		Level_7
+
+keycode 38 = 	a	     A		   percent	       Greek_alpha	Down		Down		U2200		NoSymbol
+keycode 39 = 	o	     O		   braceleft	       Greek_omicron	End		End		elementof	NoSymbol
+keycode 40 = 	e	     E		   underscore	       Greek_epsilon	Right		Right		U2203		NoSymbol
+keycode 41 = 	i	     I		   Tab		       Greek_iota	Left		Left		integral	NoSymbol
+keycode 42 = 	u	     U		   minus	       NoSymbol		Home		Home		includedin	NoSymbol
+
+keycode 43 = 	d	     D		   plus		       Greek_delta	Down		comma		Greek_DELTA	Greek_DELTA
+keycode 44 = 	r	     R		   equal	       Greek_rho	Left		KP_5		U211D		NoSymbol
+keycode 45 = 	t	     T		   Return	       Greek_tau	Down		KP_6		partialderivative
+keycode 46 = 	s	     S		   semicolon	       Greek_sigma	Right		NoSymbol	Greek_SIGMA	Greek_SIGMA
+keycode 47 = 	n	     N		   semicolon	       Greek_nu		Home		KP_4		U2115		NoSymbol
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! The lower row
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!            Level_1    Level_2          Level_3             Level_5		Level_4		Level_4+Sh	Level_6		Level_7 
+
+keycode 52 =  at       	question         dollar	      	     dollar		dollar		dollar		dollar		dollar
+keycode 53 =  q		Q		 numbersign	     U03D5		KP_Add		KP_Add		U211A		NoSymbol
+keycode 54 =  j		J		 asciicircum	     Greek_theta	semicolon	NoSymbol	Greek_THETA	Greek_THETA
+keycode 55 =  h		H		 BackSpace	     Greek_psi		KP_7		KP_7		Greek_PSI	Greek_PSI
+keycode 56 =  x		X		 exclam	Greek_xi     Prior		Prior		Greek_XI	Greek_XI
+
+keycode 57 =  b		B		 bar		     Greek_beta		colon		NoSymbol	U21D0		NoSymbol
+keycode 58 =  m		M		 braceright	     Greek_mu		KP_1		KP_1		ifonlyif	NoSymbol
+keycode 59 =  w		W		 bracketright	     Greek_omega	Next		Next		Greek_OMEGA	Greek_OMEGA
+keycode 60 =  v		V		 parenright	     NoSymbol		BackSpace	BackSpace	radical		NoSymbol
+keycode 61 =  p		P		 asciitilde	     Greek_pi		Return		Return		Greek_PI	Greek_PI
