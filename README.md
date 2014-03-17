@@ -11,6 +11,6 @@ neo keyboard layout
 
 ## How to?
 - run the specific script, and that's all 
-- if you want to make permanent, add it to your `~/.xinitrc` or `~/.profile`
+- if you want to make it permanent, add it to your `~/.xinitrc` or `~/.profile`
 
 ## [Roadmap](/roadmap.md)
