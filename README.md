@@ -14,4 +14,3 @@ neo keyboard layout
 - if you want to make permanent, add it to your `~/.xinitrc` or `~/.profile`
 
 ## [Roadmap](/roadmap.md)
-- Mon Mar 17, Neo-extended DVPE almost done.
