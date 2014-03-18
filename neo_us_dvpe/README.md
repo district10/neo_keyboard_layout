@@ -34,3 +34,7 @@ hard to describe here
 α ο ε ι -  δ ρ τ σ ν
 $ ϕ   ψ ξ  β μ ω   π
 ```
+
+### How to?
+- method 1: xmodmap neo_us_dvpe.xmodmap
+- method 2: xkbcomp neo_us_dvpe.xkbcomp
