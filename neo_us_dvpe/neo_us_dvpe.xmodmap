@@ -54,7 +54,7 @@ add Mod3 = ISO_First_Group
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Mod4 ('Tab')
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-keycode 23 = Super_L
+keycode 23 = Super_L Super_L Super_L 
 ! level4
 add Mod4 = Super_L
 
@@ -64,10 +64,12 @@ add Mod4 = Super_L
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-! Return key
+! Return key, BackSpace,
+!            (use cold-turkey method to get used to this layout, 
+!             so we get rid of these two keys, don't remove <space> here)
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 keycode 36 = space     Return	   Multi_key	ISO_Level3_Lock
-
+keycode 22 = space     BackSpace   Multi_key    ISO_Level3_Lock
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 keycode 49 = grave asciitilde
