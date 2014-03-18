@@ -6,28 +6,27 @@ see [dvpe](http://github.com/district10/extended-programmer-dvorak)
 
 ### Level 1 (Unmodified)
 ```
-1 2 3 4 5  6 7 8 9 0 - 
-` , . k y  f g c l z
+| [ ( { /  \ + = - ) ] }
+; , . k y  f g c l z
 a o e i u  d r t s n
-@ q j h x  b m w v p 
+p q j h x  b m w v p 
 ```
 
 ### Level 2 (Shifted)
 ```
-° § ℓ » «  $ € „ “ ” — 
-~ < > K Y  F G C L Z 
+! @ # $ %  ^ & * _
+: < > K Y  F G C L Z 
 A O E I U  D R T S N 
-? Q J H X  B M W V P
+P Q J H X  B M W V P
 ``` 
 
-### Level 3 (Mod3), (here, T is Tab, R is Return, D is Del)
+### Level 3 (Mod3)
 ``` 
-¹ ² ³ › ‹  ¢ ¥ ‚ ‘ ’ 
-& ( [ * :  \ ' " /
-% { _ T -  + = R ; 
-$ # ^ D !  | } ] )
+1 2 3 4 5  6 7 8 9 0
+hard to describe here 
 ```
 
+### Removed !
 ### Level 5 (Mod3 + Shift)
 ```
 ₁ ₂ ₃ » ♂  ⚥ ϰ ‹ › ₀

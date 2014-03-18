@@ -1,6 +1,6 @@
 #/bin/sh bash 
 
-xmodmap ./neo_us_dvpe.xkb \
+xmodmap ./neo_us_dvpe.xmodmap \
 && echo "neo-extended dvpe done" \
 || echo "neo-extended dvpe troubled"
 
