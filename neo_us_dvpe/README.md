@@ -4,8 +4,14 @@ see [dvpe](http://github.com/district10/extended-programmer-dvorak)
 
 ### Before We Start
 I, as a Chinese, don't use greek letters or latin letters often, so I ripped them off. I'd prefer googling them, and do the magical copy&paste. And I use [awesome window manager], I need some not occupied modifier keys (Mod4), so not like neo, we have only specified 3 levels here.
+I will always modified this layout, because I use it and still learning & trying to find the best way.
 
 
+
+
+
+
+##  About Stable Edition
 ### Modifier Keys
 
 - [Shift]s are Shift Modifiers, and they are sticky
