@@ -2,16 +2,18 @@
 
 
 ### Before We Start
-I, as a Chinese, don't use greek letters or latin letters often, so I ripped them off. I'd prefer googling them, and do the magical copy&paste. And I use [awesome window manager], I need some some not occupied modifier keys (Mod4), so not like neo, we have only specified 3 levels here.
+I, as a Chinese, don't use greek letters or latin letters often, so I ripped them off. I'd prefer googling them, and do the magical copy&paste. And I use [awesome window manager], I need some not occupied modifier keys (Mod4), so not like neo, we have only specified 3 levels here.
 
 
 ### Modifier Keys
-[Shift]s are Shift Modifiers, and they are sticky
-[space] is Mod3
-[Tab] as Mod4, used in my awesome window manager navigation
-[Caps] and [comma] as Controls
+
+- [Shift]s are Shift Modifiers, and they are sticky
+- [space] is Mod3
+- [Tab] as Mod4, used in my awesome window manager navigation
+- [Caps] and [comma] as Controls
 
 ### Level 1 (Unmodified, notice that there are two 'p')
+
 ```
 | [ ( { /  \ + = - ) ] }
 ; , . p y  f g c r l
@@ -20,7 +22,9 @@ l q j k x  b m w v z
 ```
 
 ### Level 2 (Shifted)
+
 Shift keys are sticky, meaning that you can hold shift and press the specific key, or press shift, release it, then press the other key, both way we can get the symbols in this level.
+
 ```
 ! @ # $ %  ^ & * _ ) ] }
 : < > P Y  F G C R L

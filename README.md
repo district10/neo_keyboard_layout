@@ -5,9 +5,9 @@ neo keyboard layout
 
 ## Variations
 
-- neo-extended dvpe (almost done)
-- neo-extended dvp (not started yet)
-- neo-extended qwerty (not started yet)
+- neo-extended dvpe (done)
+- neo-extended dvp (done)
+- neo-extended qwerty (done)
 
 ## How to?
 - run the specific script, and that's all 
