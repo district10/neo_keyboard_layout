@@ -1,6 +1,5 @@
-##  NEO_extended DVPE 
+##  NEO_extended Programmer Dvorak
 
-see [dvpe](http://github.com/district10/extended-programmer-dvorak)
 
 ### Before We Start
 I, as a Chinese, don't use greek letters or latin letters often, so I ripped them off. I'd prefer googling them, and do the magical copy&paste. And I use [awesome window manager], I need some some not occupied modifier keys (Mod4), so not like neo, we have only specified 3 levels here.
@@ -15,18 +14,18 @@ I, as a Chinese, don't use greek letters or latin letters often, so I ripped the
 ### Level 1 (Unmodified, notice that there are two 'p')
 ```
 | [ ( { /  \ + = - ) ] }
-; , . k y  f g c l z
-a o e i u  d r t s n
-p q j h x  b m w v p 
+; , . p y  f g c r l
+a o e u i  d h t n s
+l q j k x  b m w v z 
 ```
 
 ### Level 2 (Shifted)
 Shift keys are sticky, meaning that you can hold shift and press the specific key, or press shift, release it, then press the other key, both way we can get the symbols in this level.
 ```
 ! @ # $ %  ^ & * _ ) ] }
-: < > K Y  F G C L Z 
-A O E I U  D R T S N 
-P Q J H X  B M W V P
+: < > P Y  F G C R L
+A O E U I  D H T N S 
+L Q J K X  B M W V Z
 ``` 
 
 ### Level 3 (Mod3, hold [space] to get, for basic navigation)
@@ -47,4 +46,4 @@ P Q J H X  B M W V P
 
 ### How to?
 
-- xmodmap neo_us_dvpe.xmodmap
+- xmodmap neo_us_dvp.xmodmap

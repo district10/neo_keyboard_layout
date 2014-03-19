@@ -1,8 +1,8 @@
 #/bin/sh bash 
 
-xmodmap ./neo_us_dvpe.xmodmap \
-&& echo "neo-extended dvpe done" \
-|| echo "neo-extended dvpe troubled"
+xmodmap ./neo_us_dvp.xmodmap \
+&& echo "neo-extended dvp done" \
+|| echo "neo-extended dvp troubled"
 
 xcape -e "ISO_Group_Shift=space" \
 && echo "xcape done" \

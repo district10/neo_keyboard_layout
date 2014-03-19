@@ -1,7 +1,7 @@
-!! Neo-Extended DVPE
+!! Neo-Extended QWERTY
 !! Inspired by German Neo-Layout, http://www.neo-layout.org/
 !! @Author: Gnat TANG
-!! @Date: Mar 16, 2014
+!! @Date: Mar 19, 2014
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -92,17 +92,17 @@ keycode 21 = braceright   braceright      braceright
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !            Level_1	  Level_2     Level_3
 
-keycode 24 = semicolon 	  colon	           Escape
-keycode 25 = comma 	  less		   Prior
-keycode 26 = period	  greater	   Up
-keycode 27 = 	k	     K		   Next
-keycode 28 = 	y 	     Y		   F2 
+keycode 24 =    q 	     Q	           Escape
+keycode 25 =    w	     W 		   Prior
+keycode 26 =    e	     E 	           Up
+keycode 27 = 	r	     R		   Next
+keycode 28 = 	t 	     T		   F2 
 
-keycode 29 = 	f	     F		   backslash
-keycode 30 = 	g	     G		   question
-keycode 31 = 	c	     C		   apostrophe
-keycode 32 = 	l	     L		   quotedbl
-keycode 33 = 	z	     Z		   NoSymbol
+keycode 29 = 	y	     Y		   backslash
+keycode 30 = 	u	     U		   question
+keycode 31 = 	i	     I		   apostrophe
+keycode 32 = 	o	     O		   quotedbl
+keycode 33 = 	p	     P		   NoSymbol
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! The home row (middle row)
@@ -110,16 +110,16 @@ keycode 33 = 	z	     Z		   NoSymbol
 !            Level_1	  Level_2          Level_3
 
 keycode 38 = 	a	     A	           Home
-keycode 39 = 	o	     O	           Left
-keycode 40 = 	e	     E	           Down
-keycode 41 = 	i	     I	           Right
-keycode 42 = 	u	     U	           End
+keycode 39 = 	s	     S             Left
+keycode 40 = 	d	     D	           Down
+keycode 41 = 	f	     F	           Right
+keycode 42 = 	g	     G	           End
 
-keycode 43 = 	d	     D		   Delete
-keycode 44 = 	r	     R		   Tab
-keycode 45 = 	t	     T		   Return 
-keycode 46 = 	s	     S		   BackSpace
-keycode 47 = 	n	     N		   semicolon
+keycode 43 = 	h	     H		   Delete
+keycode 44 = 	j	     J		   Tab
+keycode 45 = 	k	     K		   Return 
+keycode 46 = 	l	     L		   BackSpace
+keycode 47 = 	semicolon    colon	   semicolon
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! The lower row
@@ -128,14 +128,14 @@ keycode 47 = 	n	     N		   semicolon
 
 
 ! Leave some spaces here, we can add more keys if we want   
-keycode 52 =  p       	P                space
-keycode 53 =  q		Q		 space
-keycode 54 =  j		J		 space
-keycode 55 =  h		H		 space
-keycode 56 =  x		X		 space
+keycode 52 =  z       	Z                space
+keycode 53 =  x		X		 space
+keycode 54 =  c		C		 space
+keycode 55 =  v		V		 space
+keycode 56 =  b		B		 space
 
-keycode 57 =  b		B		 space
+keycode 57 =  n		B		 space
 keycode 58 =  m		M		 braceright
-keycode 59 =  w		W		 parenright
-keycode 60 =  v		V		 bracketright
-keycode 61 =  p		P		 space
+keycode 59 =  comma	greater		 parenright
+keycode 60 =  dot	less		 bracketright
+keycode 61 =  slash	question	 space
