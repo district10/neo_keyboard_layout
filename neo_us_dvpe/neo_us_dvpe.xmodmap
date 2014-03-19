@@ -118,7 +118,7 @@ keycode 42 = 	u	     U	           End
 keycode 43 = 	d	     D		   Delete
 keycode 44 = 	r	     R		   Tab
 keycode 45 = 	t	     T		   Return 
-keycode 46 = 	s	     S		   BackSpace
+keycode 46 = 	s	     S		   minus
 keycode 47 = 	n	     N		   semicolon
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
