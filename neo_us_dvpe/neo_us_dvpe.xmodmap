@@ -30,8 +30,10 @@ add control = Control_R Control_L
 ! Shift ('Shift's)
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! 50=left 62=right, and they are sticky
-keycode 50 = ISO_Level2_Latch ISO_Level2_Latch
-keycode 62 = ISO_Level2_Latch ISO_Level2_Latch
+!keycode 50 = ISO_Level2_Latch ISO_Level2_Latch
+!keycode 62 = ISO_Level2_Latch ISO_Level2_Latch
+keycode 50 = Shift_L Shift_L
+keycode 62 = Shift_L Shift_L
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Mod3 ('Space')
