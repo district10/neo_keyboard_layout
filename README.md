@@ -5,9 +5,9 @@ neo keyboard layout
 
 ## Variations
 
-- neo-extended dvpe
-- neo-extended dvp
-- neo-extended qwerty
+- neo-extended dvpe: [L1](http://gnat-tang-shared-image.qiniudn.com/neo-dvpe-L1.svg), [L2](http://gnat-tang-shared-image.qiniudn.com/neo-dvpe-L2.svg), [L3](http://gnat-tang-shared-image.qiniudn.com/neo-L3.svg)
+- neo-extended dvp: [L1](http://gnat-tang-shared-image.qiniudn.com/neo-dvp-L1.svg), [L2](http://gnat-tang-shared-image.qiniudn.com/neo-dvp-L2.svg), [L3](http://gnat-tang-shared-image.qiniudn.com/neo-L3.svg)
+- neo-extended qwerty: [L1](http://gnat-tang-shared-image.qiniudn.com/neo-qwerty-L1.svg), [L2](http://gnat-tang-shared-image.qiniudn.com/neo-qwerty-L2.svg), [L3](http://gnat-tang-shared-image.qiniudn.com/neo-L3.svg)
 
 ## How to?
 - run the specific script, and that's all 
