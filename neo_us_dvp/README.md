@@ -6,6 +6,14 @@ I, as a Chinese, don't use greek letters or latin letters often, so I ripped the
 
 I highly recommand you [neo-extended programmer dvorak (dvpe 0.3)](https://github.com/district10/neo_keyboard_layout/tree/master/neo_us_dvpe), for dvorak has some painful keys like 'l', 'i'.
 
+
+## See Keyboard Layout SVG
+ - [neo-extended dvpe level 1](http://gnat-tang-shared-image.qiniudn.com/neo-qwerty-L1.svg)
+ - [neo-extended dvpe level 2](http://gnat-tang-shared-image.qiniudn.com/neo-qwerty-L2.svg)
+ - [neo-extended dvpe level 3](http://gnat-tang-shared-image.qiniudn.com/neo-L3.svg)
+
+
+
 ### Modifier Keys
 
 - [Shift]s are Shift Modifiers, and they are sticky
