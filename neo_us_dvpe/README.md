@@ -7,9 +7,9 @@ I, as a Chinese, don't use greek letters or latin letters often, so I ripped the
 I will always modified this layout, because I use it and still learning & trying to find the best way.
 
 ## See Keyboard Layout SVG
- - ![neo-extended dvpe level 1](http://gnat-tang-shared-image.qiniudn.com/neo-dvpe-L1.svg)
- - ![neo-extended dvpe level 2](http://gnat-tang-shared-image.qiniudn.com/neo-dvpe-L2.svg)
- - ![neo-extended dvpe level 3](http://gnat-tang-shared-image.qiniudn.com/neo-L3.svg)
+ - [neo-extended dvpe level 1](http://gnat-tang-shared-image.qiniudn.com/neo-dvpe-L1.svg)
+ - [neo-extended dvpe level 2](http://gnat-tang-shared-image.qiniudn.com/neo-dvpe-L2.svg)
+ - [neo-extended dvpe level 3](http://gnat-tang-shared-image.qiniudn.com/neo-L3.svg)
 
 ##  About Stable Edition
 ### Modifier Keys
