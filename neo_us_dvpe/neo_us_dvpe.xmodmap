@@ -130,7 +130,7 @@ keycode 47 = 	n	     N		   apostrophe
 
 
 ! Leave some spaces here, we can add more keys if we want   
-keycode 52 =  underscore       asciitilde                space
+keycode 52 =  p		P		 space
 keycode 53 =  q		Q		 space
 keycode 54 =  j		J		 space
 keycode 55 =  h		H		 space
@@ -140,4 +140,4 @@ keycode 57 =  b		B		 space
 keycode 58 =  m		M		 braceright
 keycode 59 =  w		W		 parenright
 keycode 60 =  v		V		 bracketright
-keycode 61 =  p		P		 space
+keycode 61 =  underscore       asciitilde                space
