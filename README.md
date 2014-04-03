@@ -1,4 +1,4 @@
-neo keyboard layout
+NEO KEYBOARD LAYOUT
 ===================
 
 ## Inspired by [German keyboard layout: NEO](http://www.neo-layout.org/)
