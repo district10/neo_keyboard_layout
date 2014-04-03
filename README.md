@@ -19,6 +19,6 @@ neo keyboard layout
 - run the specific script, and that's all 
 - if you want to make it permanent, add it to your `~/.xinitrc` or `~/.profile`
 - and by the way, we need [xcape](https://github.com/alols/xcape), install that first
--  I use neo-extended dvpe, so this is the only one maintained.
+- I use neo-extended dvpe.
 
 ## [Roadmap](/roadmap.md)
