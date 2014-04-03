@@ -62,3 +62,5 @@ P Q J H X  B M W V P
 ### How to?
 
 - xmodmap neo_us_dvpe.xmodmap
+
+- For Windows User, try [this(with installation guide inside, no level 3)](http://gnat-tang-shared-image.qiniudn.com/dvpe-v3.7z)
