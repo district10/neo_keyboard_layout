@@ -6,4 +6,4 @@ xmodmap ./neo_us_qwerty.xmodmap \
 
 xcape -e "ISO_Group_Shift=space" \
 && echo "xcape done" \
-|| echo "xcape troubled... Don't have xcape? Search it on Github"
+|| echo "xcape troubled... Don't have xcape? Search it on Github, or you don't want it? Try neo_us_qwerty2.xmodmap"

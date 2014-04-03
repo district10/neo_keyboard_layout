@@ -1,0 +1,138 @@
+!! Neo-Extended QWERTY
+!! Inspired by German Neo-Layout, http://www.neo-layout.org/
+!! For Non-Xcape User
+!! @Author: Gnat TANG
+!! @Date: Mar 19, 2014
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! Levels
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! Level 1: Normal
+! Level 2: Shift
+! Level 3: Mod3
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! Modifier definition
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+clear Lock
+clear control
+clear Mod3
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! Control ('Caps', 'Comma' and 'Control_L', 'Control_R')
+keycode 66 = Control_L Control_L Control_L
+keycode 48 = Control_R Control_R Control_R
+add control = Control_R Control_L
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! Shift ('Shift's)
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! 50=left 62=right, and they are sticky
+keycode 50 = ISO_Level2_Latch ISO_Level2_Latch
+keycode 62 = ISO_Level2_Latch ISO_Level2_Latch
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! Mod3 ('Control')
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+keycode 37 = ISO_Group_Shift ISO_Group_Shift ISO_First_Group
+keycode 36 = ISO_Group_Shift ISO_Group_Shift ISO_First_Group
+add Mod3 = ISO_First_Group
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! Mod4 ('Tab', for awesome window manager)
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+keycode 23 = Super_L Super_L Super_L 
+add Mod4 = Super_L
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! main keyboard
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! Return key, BackSpace,
+!            (use cold-turkey method to get used to this layout, 
+!             so we get rid of these two keys, 
+!             leave at lease one <space> here if you want to modify them)
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+keycode 36 = Return     Return	   Shift_Lock
+keycode 22 = BackSpace  BackSpace   Multi_key 
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+keycode 49 = grave asciitilde
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! The first row (number Row)
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!      Level_1            Level_2         Level_3
+
+keycode 10 = bar 	  exclam	  1
+keycode 11 = bracketleft  at	      	  2
+keycode 12 = parenleft 	  numbersign      3
+keycode 13 = braceleft	  dollar          4
+keycode 14 = slash	  percent	  5
+keycode 15 = backslash	  asciicircum	  6
+
+keycode 16 = plus	  ampersand	  7
+keycode 17 = equal	  asterisk        8
+keycode 18 = minus	  underscore      9
+keycode 19 = parenright	  parenright      0
+
+keycode 20 = bracketright bracketright    bracketright
+keycode 21 = braceright   braceright      braceright 
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! The upper row
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!            Level_1	  Level_2     Level_3
+
+keycode 24 =    q 	     Q	           Escape
+keycode 25 =    w	     W 		   Prior
+keycode 26 =    e	     E 	           Up
+keycode 27 = 	r	     R		   Next
+keycode 28 = 	t 	     T		   F2 
+
+keycode 29 = 	y	     Y		   backslash
+keycode 30 = 	u	     U		   question
+keycode 31 = 	i	     I		   apostrophe
+keycode 32 = 	o	     O		   quotedbl
+keycode 33 = 	p	     P		   NoSymbol
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! The home row (middle row)
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!            Level_1	  Level_2          Level_3
+
+keycode 38 = 	a	     A	           Home
+keycode 39 = 	s	     S             Left
+keycode 40 = 	d	     D	           Down
+keycode 41 = 	f	     F	           Right
+keycode 42 = 	g	     G	           End
+
+keycode 43 = 	h	     H		   Delete
+keycode 44 = 	j	     J		   Tab
+keycode 45 = 	k	     K		   Return 
+keycode 46 = 	l	     L		   BackSpace
+keycode 47 = 	semicolon    colon	   semicolon
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! The lower row
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!            Level_1    Level_2          Level_3
+
+
+! Leave some spaces here, we can add more keys if we want   
+keycode 52 =  z       	Z                space
+keycode 53 =  x		X		 space
+keycode 54 =  c		C		 space
+keycode 55 =  v		V		 space
+keycode 56 =  b		B		 space
+
+keycode 57 =  n		B		 space
+keycode 58 =  m		M		 braceright
+keycode 59 =  comma	greater		 parenright
+keycode 60 =  dot	less		 bracketright
+keycode 61 =  slash	question	 space
