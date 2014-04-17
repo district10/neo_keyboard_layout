@@ -21,7 +21,7 @@ clear Mod3
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Control ('Caps', 'Comma' and 'Control_L', 'Control_R')
 keycode 66 = Control_L Control_L Control_L
-keycode 48 = Control_R Control_R Control_R
+keycode 48 = space     space 	 space
 keycode 37 = Control_L Control_L Control_L
 keycode 36 = Control_R Control_R Control_R
 add control = Control_R Control_L
@@ -37,7 +37,7 @@ keycode 62 = Shift_L Shift_L
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Mod3 ('Space')
-!      (later we use xcape to do more fancy tricks, 
+!      (later we use xcape to do more fancy tricks,
 !       making Mod3 produce space when pressed alone.
 !       see xcape: https://github.com/alols/xcape)
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -47,7 +47,7 @@ add Mod3 = ISO_First_Group
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Mod4 ('Tab', for awesome window manager)
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-keycode 23 = Super_L Super_L Super_L 
+keycode 23 = Super_L Super_L Super_L
 add Mod4 = Super_L
 
 
@@ -58,12 +58,12 @@ add Mod4 = Super_L
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Return key, BackSpace,
-!            (use cold-turkey method to get used to this layout, 
-!             so we get rid of these two keys, 
+!            (use cold-turkey method to get used to this layout,
+!             so we get rid of these two keys,
 !             leave at lease one <space> here if you want to modify them)
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 keycode 36 = space     Return	   Shift_Lock
-keycode 22 = space     BackSpace   Multi_key 
+keycode 22 = space     BackSpace   Multi_key
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 keycode 49 = grave asciitilde
@@ -86,7 +86,7 @@ keycode 18 = minus	  underscore      9
 keycode 19 = parenright	  parenright      0
 
 keycode 20 = bracketright bracketright    bracketright
-keycode 21 = braceright   braceright      braceright 
+keycode 21 = braceright   braceright      braceright
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -98,10 +98,10 @@ keycode 24 = semicolon 	  colon	           Escape
 keycode 25 = comma 	  less		   Prior
 keycode 26 = period	  greater	   Up
 keycode 27 = 	k	     K		   Next
-keycode 28 = 	y 	     Y		   F2 
+keycode 28 = 	y 	     Y		   F2
 
-keycode 29 = 	f	     F		   backslash
-keycode 30 = 	g	     G		   question
+keycode 29 = 	f	     F		   Shift_Lock
+keycode 30 = 	g	     G		   F12
 keycode 31 = 	c	     C		   apostrophe
 keycode 32 = 	l	     L		   quotedbl
 keycode 33 = 	z	     Z		   NoSymbol
@@ -119,9 +119,10 @@ keycode 42 = 	u	     U	           End
 
 keycode 43 = 	d	     D		   Delete
 keycode 44 = 	r	     R		   Tab
-keycode 45 = 	t	     T		   Return 
+keycode 45 = 	t	     T		   Return
 keycode 46 = 	s	     S		   minus
-keycode 47 = 	n	     N		   apostrophe
+keycode 47 = 	n	     N		   Insert
+
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! The lower row
@@ -129,15 +130,15 @@ keycode 47 = 	n	     N		   apostrophe
 !            Level_1    Level_2          Level_3
 
 
-! Leave some spaces here, we can add more keys if we want   
-keycode 52 =  p		P		 space
+! Leave some spaces here, we can add more keys if we want
+keycode 52 =  p		P		 F11
 keycode 53 =  q		Q		 space
 keycode 54 =  j		J		 space
-keycode 55 =  h		H		 space
-keycode 56 =  x		X		 space
+keycode 55 =  h		H		 grave
+keycode 56 =  x		X		 asciitilde
 
-keycode 57 =  b		B		 space
+keycode 57 =  b		B		 BackSpace
 keycode 58 =  m		M		 braceright
 keycode 59 =  w		W		 parenright
 keycode 60 =  v		V		 bracketright
-keycode 61 =  underscore       asciitilde                space
+keycode 61 =  underscore   question      space
