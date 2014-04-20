@@ -7,7 +7,7 @@ NEO KEYBOARD LAYOUT
 #### [One of my relative blog][jianshu-blog]
 
 
-## Variations
+## Variations (svg images)
 
 - neo-extended dvpe: [L1][dvpe-L1], [L2][dvpe-L2], [L3][neo-L3]
 - neo-extended dvp: [L1][dvp-L1], [L2][dvp-L2], [L3][neo-L3]
