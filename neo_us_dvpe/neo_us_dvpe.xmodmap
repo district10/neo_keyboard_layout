@@ -94,17 +94,17 @@ keycode 21 = braceright   braceright      braceright
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !            Level_1	  Level_2     Level_3
 
-keycode 24 = semicolon 	  colon	           Escape
-keycode 25 = comma 	  less		   Prior
+keycode 24 = semicolon 	  colon	           Insert
+keycode 25 = comma 	  less		   Escape
 keycode 26 = period	  greater	   Up
-keycode 27 = 	k	     K		   Next
-keycode 28 = 	y 	     Y		   F2
+keycode 27 = 	k	     K		   F2
+keycode 28 = 	y 	     Y		   F3
 
-keycode 29 = 	f	     F		   Shift_Lock
-keycode 30 = 	g	     G		   F12
+keycode 29 = 	f	     F		   F4
+keycode 30 = 	g	     G		   F5
 keycode 31 = 	c	     C		   apostrophe
 keycode 32 = 	l	     L		   quotedbl
-keycode 33 = 	z	     Z		   NoSymbol
+keycode 33 = 	z	     Z		   F11
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! The home row (middle row)
@@ -121,7 +121,7 @@ keycode 43 = 	d	     D		   Delete
 keycode 44 = 	r	     R		   Tab
 keycode 45 = 	t	     T		   Return
 keycode 46 = 	s	     S		   minus
-keycode 47 = 	n	     N		   Insert
+keycode 47 = 	n	     N		   
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -131,9 +131,9 @@ keycode 47 = 	n	     N		   Insert
 
 
 ! Leave some spaces here, we can add more keys if we want
-keycode 52 =  p		P		 F11
-keycode 53 =  q		Q		 space
-keycode 54 =  j		J		 space
+keycode 52 =  p		P		 minus
+keycode 53 =  q		Q		 Prior
+keycode 54 =  j		J		 Next
 keycode 55 =  h		H		 grave
 keycode 56 =  x		X		 asciitilde
 
@@ -141,4 +141,4 @@ keycode 57 =  b		B		 BackSpace
 keycode 58 =  m		M		 braceright
 keycode 59 =  w		W		 parenright
 keycode 60 =  v		V		 bracketright
-keycode 61 =  underscore   question      space
+keycode 61 =  underscore   question      Shift_Lock
