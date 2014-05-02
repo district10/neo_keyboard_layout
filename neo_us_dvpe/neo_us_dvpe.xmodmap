@@ -82,7 +82,7 @@ keycode 15 = backslash	  asciicircum	  6
 
 keycode 16 = plus	  ampersand	  7
 keycode 17 = equal	  asterisk        8
-keycode 18 = minus	  underscore      9
+keycode 18 = exclam       underscore      9
 keycode 19 = parenright	  parenright      0
 
 keycode 20 = bracketright bracketright    bracketright
