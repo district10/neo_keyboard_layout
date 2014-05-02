@@ -95,7 +95,7 @@ keycode 21 = braceright   braceright      braceright
 !            Level_1	  Level_2     Level_3
 
 keycode 24 = semicolon 	  colon	           Insert
-keycode 25 = comma 	  less		   Escape
+keycode 25 = comma 	  less		   minus
 keycode 26 = period	  greater	   Up
 keycode 27 = 	k	     K		   F2
 keycode 28 = 	y 	     Y		   F3
@@ -120,7 +120,7 @@ keycode 42 = 	u	     U	           End
 keycode 43 = 	d	     D		   Delete
 keycode 44 = 	r	     R		   Tab
 keycode 45 = 	t	     T		   Return
-keycode 46 = 	s	     S		   minus
+keycode 46 = 	s	     S		   Escape 
 keycode 47 = 	n	     N		   
 
 
