@@ -4,7 +4,7 @@ NEO KEYBOARD LAYOUT
 ## Inspired by [German keyboard layout: NEO][neo-official]
 
 
-#### [One of my relative blog][jianshu-blog]
+#### [One of my relative blog (in chinese)][jianshu-blog]
 
 
 ## Variations (svg images)
