@@ -63,7 +63,7 @@ add Mod4 = Super_L
 !             leave at lease one <space> here if you want to modify them)
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 keycode 36 = space     Return	   Shift_Lock
-keycode 22 = space     BackSpace   Multi_key
+keycode 22 = space    BackSpace   Multi_key
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 keycode 49 = grave asciitilde
