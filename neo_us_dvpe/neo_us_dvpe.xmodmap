@@ -20,10 +20,10 @@ clear Mod3
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Control ('Caps', 'Comma' and 'Control_L', 'Control_R')
-keycode 66 = Control_L Control_L Control_L
-keycode 48 = space     space 	 space
-keycode 37 = Control_L Control_L Control_L
-keycode 36 = Control_R Control_R Control_R
+keycode 66 = Control_L Control_L
+keycode 48 = Control_L Control_L
+keycode 37 = Control_L Control_L
+keycode 36 = Control_R Control_R
 add control = Control_R Control_L
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -32,6 +32,7 @@ add control = Control_R Control_L
 ! 50=left 62=right, and they are sticky
 !keycode 50 = ISO_Level2_Latch ISO_Level2_Latch
 !keycode 62 = ISO_Level2_Latch ISO_Level2_Latch
+! 50=left 62=right, and they are not sticky now
 keycode 50 = Shift_L Shift_L
 keycode 62 = Shift_L Shift_L
 
