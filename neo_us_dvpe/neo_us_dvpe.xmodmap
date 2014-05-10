@@ -105,7 +105,7 @@ keycode 29 = 	f	     F		   F4
 keycode 30 = 	g	     G		   F5
 keycode 31 = 	c	     C		   apostrophe
 keycode 32 = 	l	     L		   quotedbl
-keycode 33 = 	z	     Z		   F11
+keycode 33 = 	z	     Z		   F6
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! The home row (middle row)
@@ -122,7 +122,7 @@ keycode 43 = 	d	     D		   Delete
 keycode 44 = 	r	     R		   Tab
 keycode 45 = 	t	     T		   Return
 keycode 46 = 	s	     S		   Escape 
-keycode 47 = 	n	     N		   
+keycode 47 = 	n	     N		   F10 
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -132,7 +132,7 @@ keycode 47 = 	n	     N
 
 
 ! Leave some spaces here, we can add more keys if we want
-keycode 52 =  p		P		 minus
+keycode 52 =  p		P		 F11
 keycode 53 =  q		Q		 Prior
 keycode 54 =  j		J		 Next
 keycode 55 =  h		H		 grave
@@ -142,4 +142,4 @@ keycode 57 =  b		B		 BackSpace
 keycode 58 =  m		M		 braceright
 keycode 59 =  w		W		 parenright
 keycode 60 =  v		V		 bracketright
-keycode 61 =  underscore   question      Shift_Lock
+keycode 61 =  underscore   question      F12
