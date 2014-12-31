@@ -1,0 +1,73 @@
+!! Neo2015
+
+! Level 1: Normal
+! Level 2: Shift
+! Level 3: Mod3
+
+! keycode #kcd = Level_1_keyname Level_2_keyname Level_3_keyname
+
+clear Lock
+clear control
+clear Mod3
+
+keycode 66 = Control_L Control_L ! space
+keycode 48 = Control_R Control_R ! apostrophe
+! keycode 37 = Control_L Control_L ! control l
+! keycode 36 = Control_R Control_R ! control r
+add control = Control_R Control_L ! make control control
+
+! keycode 50 = Shift_L Shift_L ! shift l
+! keycode 62 = Shift_R Shift_R ! shift r
+
+keycode 65  = ISO_Group_Shift ISO_Group_Shift ISO_First_Group ! space
+add Mod3 = ISO_First_Group
+
+keycode 23 = Super_L Super_L Super_L ! tab (for awesome window manager)
+add Mod4 = Super_L
+
+! keycode 36 = space     Return	   Shift_Lock ! return
+! keycode 22 = space    BackSpace   Multi_key ! backspace
+
+
+
+! The first row (number Row)
+! we dont need these any more
+
+! Upper row
+keycode 24 = semicolon 	  colon	           apostrophe
+keycode 25 = comma 	  less		   semicolon
+keycode 26 = period	  greater	   Up
+keycode 27 = 	k	     K		   colon
+keycode 28 = 	y 	     Y		   bracketright
+
+keycode 29 = 	f	     F		   bracketleft
+keycode 30 = 	g	     G		   asterisk
+keycode 31 = 	c	     C		   parenright
+keycode 32 = 	l	     L		   parenleft
+keycode 33 = 	z	     Z		   asciitilde
+
+! Home row
+keycode 38 = 	a	     A	           Home
+keycode 39 = 	o	     O	           Left
+keycode 40 = 	e	     E	           Down
+keycode 41 = 	i	     I	           Right
+keycode 42 = 	u	     U	           End
+
+keycode 43 = 	d	     D		   Delete
+keycode 44 = 	r	     R		   Return
+keycode 45 = 	t	     T		   Tab
+keycode 46 = 	s	     S		   Escape 
+keycode 47 = 	n	     N		   bar 
+
+! Lower row
+keycode 52 =  p		P		 quotedbl
+keycode 53 =  q		Q		 braceleft
+keycode 54 =  j		J		 minus
+keycode 55 =  h		H		 underscore
+keycode 56 =  x		X		 braceright
+
+keycode 57 =  b		B		 BackSpace
+keycode 58 =  m		M		 equal
+keycode 59 =  w		W		 plus
+keycode 60 =  v		V		 grave
+keycode 61 =  slash   question           backslash
