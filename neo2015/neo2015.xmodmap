@@ -10,23 +10,23 @@ clear Lock
 clear control
 clear Mod3
 
-keycode 66 = Control_L Control_L ! space
-keycode 48 = Control_R Control_R ! apostrophe
-! keycode 37 = Control_L Control_L ! control l
-! keycode 36 = Control_R Control_R ! control r
-add control = Control_R Control_L ! make control control
+keycode 66 = Control_L Control_L Control_L
+keycode 48 = Control_R Control_R Control_R
+keycode 37 = apostrophe quotedbl Control_R 
+keycode 36 = space Shift_Lock Control_L 
+add control = Control_R Control_L
 
-! keycode 50 = Shift_L Shift_L ! shift l
-! keycode 62 = Shift_R Shift_R ! shift r
+! keycode 50 = Shift_L Shift_L
+! keycode 62 = Shift_R Shift_R
 
-keycode 65  = ISO_Group_Shift ISO_Group_Shift ISO_First_Group ! space
+keycode 65  = ISO_Group_Shift ISO_Group_Shift ISO_First_Group 
 add Mod3 = ISO_First_Group
 
-keycode 23 = Super_L Super_L Super_L ! tab (for awesome window manager)
+keycode 23 = Super_L Super_L Super_L 
 add Mod4 = Super_L
 
-! keycode 36 = space     Return	   Shift_Lock ! return
-! keycode 22 = space    BackSpace   Multi_key ! backspace
+! keycode 36 = Return	 Shift_Lock 
+! keycode 22 = BackSpace   Multi_key
 
 
 
