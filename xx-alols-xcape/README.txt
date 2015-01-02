@@ -15,4 +15,4 @@
 How to install
 ==============
 
-sudo apt-get install libdevel
+1. `sudo apt-get install libxtst-dev` (https://packages.debian.org/zh-cn/sid/libdevel/libxtst-dev)

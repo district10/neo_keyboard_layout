@@ -40,8 +40,8 @@ keycode 26 = period	  greater	   Up
 keycode 27 = 	k	     K		   colon
 keycode 28 = 	y 	     Y		   bracketright
 
-keycode 29 = 	f	     F		   bracketleft
-keycode 30 = 	g	     G		   asterisk
+keycode 29 = 	f	     F		   exclam
+keycode 30 = 	g	     G		   bracketleft
 keycode 31 = 	c	     C		   parenright
 keycode 32 = 	l	     L		   parenleft
 keycode 33 = 	z	     Z		   asciitilde
