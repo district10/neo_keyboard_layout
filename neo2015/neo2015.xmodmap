@@ -34,11 +34,11 @@ add Mod4 = Super_L
 ! we dont need these any more
 
 ! Upper row
-keycode 24 = semicolon 	  colon	           apostrophe
+keycode 24 = Prior 	  Next	           apostrophe
 keycode 25 = comma 	  less		   semicolon
 keycode 26 = period	  greater	   Up
-keycode 27 = 	k	     K		   colon
-keycode 28 = 	y 	     Y		   bracketright
+keycode 27 = 	k	     K		   bracketright
+keycode 28 = 	y 	     Y		   colon
 
 keycode 29 = 	f	     F		   exclam
 keycode 30 = 	g	     G		   bracketleft
