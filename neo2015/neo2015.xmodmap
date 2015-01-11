@@ -34,7 +34,7 @@ add Mod4 = Super_L
 ! we dont need these any more
 
 ! Upper row
-keycode 24 = Prior 	  Next	           apostrophe
+keycode 24 = Next 	  Insert       quotedbl
 keycode 25 = comma 	  less		   semicolon
 keycode 26 = period	  greater	   Up
 keycode 27 = 	k	     K		   bracketright
@@ -60,7 +60,7 @@ keycode 46 = 	s	     S		   Escape
 keycode 47 = 	n	     N		   bar 
 
 ! Lower row
-keycode 52 =  p		P		 quotedbl
+keycode 52 =  p		P		 apostrophe
 keycode 53 =  q		Q		 braceleft
 keycode 54 =  j		J		 minus
 keycode 55 =  h		H		 underscore
