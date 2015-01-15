@@ -82,4 +82,7 @@ _ underscore
 < less
 > greater
 ? question
+<CAPS> Shift_Lock
+<MultiKey> Multi_Key
+
 White chars: space Escape BackSpace Delete

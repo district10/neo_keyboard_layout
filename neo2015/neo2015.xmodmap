@@ -6,7 +6,7 @@
 
 ! keycode #kcd = Level_1_keyname Level_2_keyname Level_3_keyname
 
-clear Lock
+! clear Lock
 clear control
 clear Mod3
 
@@ -31,16 +31,24 @@ add Mod4 = Super_L
 
 
 ! The first row (number Row)
-! we dont need these any more
+keycode 10 = 1 exclam space
+keycode 11 = 2 at colon 
+keycode 12 = 3 numbersign exclam
+keycode 13 = 4 dollar Next
+keycode 14 = 5 percent Prior
+keycode 15 = 6 asciicircum Multi_key
+keycode 16 = 7 ampersand 2
+keycode 17 = 8 asterisk 0
+keycode 18 = 9 Caps_Lock 1
 
 ! Upper row
-keycode 24 = Next 	  Insert       quotedbl
-keycode 25 = comma 	  less		   semicolon
+keycode 24 = semicolon colon       Insert
+keycode 25 = comma 	  less		   quotedbl
 keycode 26 = period	  greater	   Up
 keycode 27 = 	k	     K		   bracketright
-keycode 28 = 	y 	     Y		   colon
+keycode 28 = 	y 	     Y		   F2
 
-keycode 29 = 	f	     F		   exclam
+keycode 29 = 	f	     F		   F11
 keycode 30 = 	g	     G		   bracketleft
 keycode 31 = 	c	     C		   parenright
 keycode 32 = 	l	     L		   parenleft
