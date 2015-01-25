@@ -1,6 +1,22 @@
 Neo 2015 - The final
 ====================
 
+先按照 
+  https://github.com/district10/neo_keyboard_layout/tree/master/xx-alols-xcape
+的指导安装 xcape。
+
+再运行：
+
+```bash
+./neo_us_dvpe.sh
+```
+
+如果你是 Qwerty 用户，运行：
+```bash
+./neo_us_qwerty .sh
+```
+
+
 Neo keyboard layout will not update anymore. (The code may change a little bit, but the layout is freezon.)
 
 Level 1
