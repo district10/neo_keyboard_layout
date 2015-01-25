@@ -23,8 +23,8 @@ Level 3
 -------
 | 左手 | 左手 | 左手 | 左手 | 左手 | 右手 | 右手 | 右手 | 右手 | 右手 |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| Insert | Up | ] | F2 | F11 | [ | ) | ( | ~ |
-| Home | Left | Down | Right | Delete | Return | Tab | \| |
+| Insert | " | Up | ] | F2 | F11 | [ | ) | ( | ~ |
+| Home | Left | Down | Right | END | Delete | Return | Tab | Escape | \| |
 | ' | { | - | _ | } | Backspace | = | + | ` | \ |
 
 (Qwerty 版本的 Level1, 2 为相应的 Qwerty， 第三布局为 Neo的第三布局)
