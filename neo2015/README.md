@@ -6,6 +6,7 @@ Neo keyboard layout will not update anymore. (The code may change a little bit, 
 Level 1
 -------
 
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | ; | , | . | k | y | f | g | c | l | z |
 | a | o | e | i | u | d | r | t | s | n |
 | p | q | j | h | x | b | m | w | v | / |
