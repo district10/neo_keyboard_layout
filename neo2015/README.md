@@ -13,7 +13,7 @@ Neo 2015 - The final
 
 如果你是 Qwerty 用户，运行：
 ```bash
-./neo_us_qwerty .sh
+./neo_us_qwerty.sh
 ```
 
 
