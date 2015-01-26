@@ -12,7 +12,7 @@ clear Mod3
 
 keycode 66 = Control_L          Control_L           Control_L
 keycode 48 = Control_R          Control_R           Control_R
-keycode 37 = apostrophe         quotedbl            Control_R 
+keycode 37 = Control_L          Control_L           Control_L 
 keycode 36 = space              Shift_Lock          Control_L 
 add control = Control_R Control_L
 
