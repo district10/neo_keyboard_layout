@@ -55,27 +55,27 @@ keycode 32 = l                  L                   parenleft
 keycode 33 = z                  Z                   asciitilde
 
 ! Home row
-keycode 38 =  a                 A                   Home
-keycode 39 =  o                 O                   Left
-keycode 40 =  e                 E                   Down
-keycode 41 =  i                 I                   Right
-keycode 42 =  u                 U                   End
+keycode 38 = a                 A                   Home
+keycode 39 = o                 O                   Left
+keycode 40 = e                 E                   Down
+keycode 41 = i                 I                   Right
+keycode 42 = u                 U                   End
 
-keycode 43 =  d                 D                   Delete
-keycode 44 =  r                 R                   Return
-keycode 45 =  t                 T                   Tab
-keycode 46 =  s                 S                   Escape 
-keycode 47 =  n                 N                   bar 
+keycode 43 = d                 D                   Delete
+keycode 44 = r                 R                   Return
+keycode 45 = t                 T                   Tab
+keycode 46 = s                 S                   Escape 
+keycode 47 = n                 N                   bar 
 
 ! Lower row
-keycode 52 =  p                 P                   apostrophe
-keycode 53 =  q                 Q                   braceleft
-keycode 54 =  j                 J                   minus
-keycode 55 =  h                 H                   underscore
-keycode 56 =  x                 X                   braceright
+keycode 52 = p                 P                   apostrophe
+keycode 53 = q                 Q                   braceleft
+keycode 54 = j                 J                   minus
+keycode 55 = h                 H                   underscore
+keycode 56 = x                 X                   braceright
 
-keycode 57 =  b                 B                   BackSpace
-keycode 58 =  m                 M                   equal
-keycode 59 =  w                 W                   plus
-keycode 60 =  v                 V                   grave
-keycode 61 =  slash             question            backslash
+keycode 57 = b                 B                   BackSpace
+keycode 58 = m                 M                   equal
+keycode 59 = w                 W                   plus
+keycode 60 = v                 V                   grave
+keycode 61 = slash             question            backslash

@@ -55,26 +55,26 @@ keycode 32 = o                  O                   parenleft
 keycode 33 = p                  P                   asciitilde
 
 ! Home row
-keycode 38 =  a                 A                   Home
-keycode 39 =  s                 S                   Left
-keycode 40 =  d                 D                   Down
-keycode 41 =  f                 F                   Right
-keycode 42 =  g                 G                   End
+keycode 38 = a                 A                   Home
+keycode 39 = s                 S                   Left
+keycode 40 = d                 D                   Down
+keycode 41 = f                 F                   Right
+keycode 42 = g                 G                   End
 
-keycode 43 =  h                 D                   Delete
-keycode 44 =  j                 R                   Return
-keycode 45 =  k                 T                   Tab
-keycode 47 =  semicolon         colon               bar 
+keycode 43 = h                 D                   Delete
+keycode 44 = j                 R                   Return
+keycode 45 = k                 T                   Tab
+keycode 47 = semicolon         colon               bar 
 
 ! Lower row
-keycode 52 =  z                 P                   apostrophe
-keycode 53 =  x                 Q                   braceleft
-keycode 54 =  c                 J                   minus
-keycode 55 =  v                 H                   underscore
-keycode 56 =  b                 X                   braceright
+keycode 52 = z                 P                   apostrophe
+keycode 53 = x                 Q                   braceleft
+keycode 54 = c                 J                   minus
+keycode 55 = v                 H                   underscore
+keycode 56 = b                 X                   braceright
 
-keycode 57 =  n                 B                   BackSpace
-keycode 58 =  m                 M                   equal
-keycode 59 =  comma             less                plus
-keycode 60 =  period            greater             grave
-keycode 61 =  slash             question            backslash
+keycode 57 = n                 B                   BackSpace
+keycode 58 = m                 M                   equal
+keycode 59 = comma             less                plus
+keycode 60 = period            greater             grave
+keycode 61 = slash             question            backslash
