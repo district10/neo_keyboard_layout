@@ -13,7 +13,7 @@ clear Mod3
 keycode 66 = Control_L          Control_L           Control_L
 keycode 48 = Control_R          Control_R           Control_R
 keycode 37 = Control_L          Control_L           Control_L 
-keycode 36 = space              Shift_Lock          Control_L 
+keycode 36 = Return              Shift_Lock          Control_L 
 add control = Control_R Control_L
 
 ! keycode 50 = Shift_L Shift_L
@@ -29,7 +29,6 @@ add Mod4 = Super_L
 ! keycode 22 = BackSpace   Multi_key
 
 
-
 ! The first row (number Row)
 keycode 10 = 1                  exclam              space
 keycode 11 = 2                  at                  colon 
@@ -40,6 +39,9 @@ keycode 15 = 6                  asciicircum         Multi_key
 keycode 16 = 7                  ampersand           2
 keycode 17 = 8                  asterisk            0
 keycode 18 = 9                  Caps_Lock           1
+!keycode 19 = 0                 Caps_Lock           1
+keycode 20 = space              Caps_Lock           1
+!keycode 21 = =                 Caps_Lock           1
 
 ! Upper row
 keycode 24 = semicolon          colon               Insert
