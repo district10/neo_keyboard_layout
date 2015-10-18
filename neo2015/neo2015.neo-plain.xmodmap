@@ -1,0 +1,40 @@
+!! Neo2015: neo plain
+
+! Upper row
+keycode 24 = semicolon          colon
+keycode 25 = comma              less
+keycode 26 = period             greater
+keycode 27 = k                  K
+keycode 28 = y                  Y
+
+keycode 29 = f                  F
+keycode 30 = g                  G
+keycode 31 = c                  C
+keycode 32 = l                  L
+keycode 33 = z                  Z
+
+! Home row
+keycode 38 = a                 A
+keycode 39 = o                 O
+keycode 40 = e                 E
+keycode 41 = i                 I
+keycode 42 = u                 U
+
+keycode 43 = d                 D
+keycode 44 = r                 R
+keycode 45 = t                 T
+keycode 46 = s                 S
+keycode 47 = n                 N
+
+! Lower row
+keycode 52 = p                 P
+keycode 53 = q                 Q
+keycode 54 = j                 J
+keycode 55 = h                 H
+keycode 56 = x                 X
+
+keycode 57 = b                 B
+keycode 58 = m                 M
+keycode 59 = w                 W
+keycode 60 = v                 V
+keycode 61 = slash             question
