@@ -21,6 +21,14 @@ Neo 2015 - The final
 ./dvorak.sh
 ```
 
+如果你没有装上 xcape，那就用
+
+```bash
+./np.sh # neo plain
+```
+
+第三布局没有，就是普通的改造了的 dvorak。
+
 Level 1
 -------
 | 左手 | 左手 | 左手 | 左手 | 左手 | 右手 | 右手 | 右手 | 右手 | 右手 |
