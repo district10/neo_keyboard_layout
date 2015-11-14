@@ -85,3 +85,11 @@ space & 2::Send {:}
 space & 3::Send {!}
 space & 4::Send {Next}
 space & 5::Send {Prior}
+
+SetCapsLockState, alwaysoff
+
+*Capslock::
+Send {LControl Down}
+KeyWait, CapsLock
+Send {LControl Up}
+return
