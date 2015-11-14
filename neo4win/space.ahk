@@ -24,6 +24,7 @@ space & h::Send {Delete}
 space & j::Send {Return}
 space & k::Send {Tab}
 space & l::Send {Escape}
+space & `;::Send {|}
 
 ;; lower row
 space & z::Send {'}
