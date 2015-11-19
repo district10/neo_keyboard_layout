@@ -2,6 +2,7 @@
 ;#InstallKeybdHook
 ;#InstallMouseHook
 
+;;;;;;;;;;;;;;;;;;;;;;;; dvorak ;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; home row
 ;-> a::a
 s::o
@@ -38,7 +39,7 @@ i::c
 o::l
 p::z
 
-
+;;;;;;;;;;;;;;;;;;;;;;;; 3rd level ;;;;;;;;;;;;;;;;;;;;;;;;;
 space::space
 
 ; upper row
@@ -83,9 +84,11 @@ space & /::Send {\}
 space & 1::Send { }
 space & 2::Send {:}
 space & 3::Send {!}
-space & 4::Send {Next}
-space & 5::Send {Prior}
+space & 4::Send {PgDn}
+space & 5::Send {PgUp}
+space & 8::Send {0}
 
+;;;;;;;;;;;;;;;;;;;;;;;; capslock ;;;;;;;;;;;;;;;;;;;;;;;;;
 SetCapsLockState, alwaysoff
 
 *Capslock::
