@@ -96,9 +96,3 @@ Send {LControl Down}
 KeyWait, CapsLock
 Send {LControl Up}
 return
-
-'::
-Send {RControl Down}
-KeyWait, '
-Send {RControl Up}
-return
