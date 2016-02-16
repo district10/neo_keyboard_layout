@@ -6,13 +6,13 @@ NEO KEYBOARD LAYOUT
 ## Variations (svg images)
 
 * neo-extended dvpe:
- ![L1][dvpe-L1]
- ![L2][dvpe-L2]
- ![L3][neo-L3]
+    + [L1][dvpe-L1]
+    + [L2][dvpe-L2]
+    + [L3][neo-L3]
 * neo-extended dvp:
- ![L1][dvp-L1]
+    + [L1][dvp-L1]
 * neo-extended qwerty:
- ![L1][qwerty-L1]
+    + [L1][qwerty-L1]
 
 ## Advantages
 
@@ -53,3 +53,8 @@ NEO KEYBOARD LAYOUT
 [qwerty-L1]: http://gnat-tang-shared-image.qiniudn.com/neo-qwerty-L1.svg
 [qwerty-L2]: http://gnat-tang-shared-image.qiniudn.com/neo-qwerty-L2.svg
 [neo-L3]: http://gnat-tang-shared-image.qiniudn.com/neo-L3.svg
+
+## Website
+
+* <http://district10.github.io/neo_keyboard_layout/>
+* <http://whudoc.qiniudn.com/neo.html>
