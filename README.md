@@ -1,30 +1,23 @@
 NEO KEYBOARD LAYOUT
 ===================
 
-
 > Inspired by [German keyboard layout: NEO][neo-official]
 
 ## Variations (svg images)
 
-* neo-extended dvpe: 
+* neo-extended dvpe:
  ![L1][dvpe-L1]
  ![L2][dvpe-L2]
  ![L3][neo-L3]
-* neo-extended dvp: 
+* neo-extended dvp:
  ![L1][dvp-L1]
-* neo-extended qwerty: 
+* neo-extended qwerty:
  ![L1][qwerty-L1]
-
----
 
 ## Advantages
 
 * Life is really beautiful now!
 * Emacs or Vim, we can use the same way to navigate, and actually it's system-widely usable
-
-
-
----
 
 ## What We get with the Fantastic Third Level
 
@@ -33,36 +26,23 @@ NEO KEYBOARD LAYOUT
     * `Down`
     * `Left`
     * `Right`
-
 2. Move Cursor By Line:
     * `Home` (to beginning)
     * `End` (to end)
-
 3. Move Cursor By Page:
     * `PageUp`
     * `PageDown`
-
 4. `Return`, `Tab`, `Delete`, `BackSpace`, etc
-
 5. Function keys: like `F11` (toggle full-screen)
-
-
-
----
 
 ## How to?
 
 * run the specific script, and that's all
 * if you want to make it permanent, add it to your `~/.xinitrc` or `~/.profile`
-* and by the way, we need [xcape](https://github.com/alols/xcape), install that first
+* and by the way, we need [xcape](https://github.com/alols/xcape), install that first, 在 [`xx-alols-xcape`](xx-alols-xcape) 文件夹下有安装说明。
 * I use neo-extended dvpe.
 
-
-
----
-
 ## [Roadmap](/roadmap.md)
-
 
 [neo-official]: http://www.neo-layout.org/
 [jianshu-blog]: http://jianshu.io/p/2f56bed65e5c
