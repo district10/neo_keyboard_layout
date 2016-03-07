@@ -3,6 +3,8 @@ NEO KEYBOARD LAYOUT
 
 > Inspired by [German keyboard layout: NEO][neo-official]
 
+See <http://tangzhixiong.com/neo_keyboard_layout/>
+
 ## Variations (svg images)
 
 * neo-extended dvpe:
