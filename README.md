@@ -5,6 +5,42 @@ NEO KEYBOARD LAYOUT
 
 See <http://tangzhixiong.com/neo_keyboard_layout/>
 
+```
+Level 1, 2:
+
+[             ] [             ] [             ] [             ] [             ] . [             ] [             ] [             ] [             ] [             ]
+[      ;:     ] [      ,<     ] [      .>     ] [      kK     ] [      yY     ] . [      fF     ] [      gG     ] [      cC     ] [      lL     ] [      zZ     ]
+[      aA     ] [      oO     ] [      eE     ] [      iI     ] [      uU     ] . [      dD     ] [      rR     ] [      tT     ] [      sS     ] [      nN     ]
+[      pP     ] [      qQ     ] [      jJ     ] [      hH     ] [      xX     ] . [      bB     ] [      mM     ] [      wW     ] [      vV     ] [      /?     ]
+
+Level 3:
+
+[             ] [             ] [             ] [             ] [             ] . [             ] [             ] [             ] [             ] [             ]
+[   <Insert>  ] [      "      ] [     <Up>    ] [      ]      ] [     <F2>    ] . [     <F11>   ] [       [     ] [       )     ] [      (      ] [      ~      ]
+[   <Home>    ] [    <Left>   ] [    <Down>   ] [   <Right>   ] [    <END>    ] . [   <Delete>  ] [   <Return>  ] [     <Tab>   ] [   <Escape>  ] [      |      ]
+[      '      ] [      {      ] [       -     ] [      _      ] [      }      ] . [ <Backspace> ] [       =     ] [       +     ] [       `     ] [      \      ]
+```
+
+|   Dvorak  |      左小     |      左无     |      左中     |      左食     |     左食      |     右食      |      右食     |      右中     |      右无     |      右小     |
+| :-------- | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: |
+|     ＊    |       ＊      |       ＊      |       ＊      |  Upper Row    |       上行    |       ＊      |       ＊      |       ＊      |       ＊      |       ＊      |
+|  L1 & L2  |      `;:`     |      `,<`     |      `.>`     |      `kK`     |      `yY`     |      `fF`     |      `gG`     |      `cC`     |      `lL`     |      `zZ`     |
+|     L3    |   `<Insert>`  |      `"`      |     `<Up>`    |      `]`      |     `<F2>`    |     `<F11>`   |       `[`     |       `)`     |      `(`      |      `~`      |
+|     ＊    |       ＊      |       ＊      |       ＊      |   Home Row    |       中行    |       ＊      |       ＊      |       ＊      |       ＊      |       ＊      |
+|  L1 & L2  |      `aA`     |      `oO`     |      `eE`     |      `iI`     |      `uU`     |      `dD`     |      `rR`     |      `tT`     |      `sS`     |      `nN`     |
+|     L3    |   `<Home>`    |    `<Left>`   |    `<Down>`   |   `<Right>`   |    `<END>`    |   `<Delete>`  |   `<Return>`  |     `<Tab>`   |   `<Escape>`  |      `|`      |
+|     ＊    |       ＊      |       ＊      |       ＊      |   Lower Row   |       下行    |       ＊      |       ＊      |       ＊      |       ＊      |       ＊      |
+|  L1 & L2  |      `pP`     |      `qQ`     |      `jJ`     |      `hH`     |      `xX`     |      `bB`     |      `mM`     |      `wW`     |      `vV`     |      `/?`     |
+|     L3    |      `'`      |      `{`      |       `-`     |      `_`      |      `}`      | `<Backspace>` |       `=`     |       `+`     |    `` ` ``    |      `\`      |
+|     ＊    |       ＊      |       ＊      |       ＊      |   L1 & L2     |      ＊       |       ＊      |       ＊      |       ＊      |       ＊      |       ＊      |
+| Upper Row |      `;:`     |      `,<`     |      `.>`     |      `kK`     |      `yY`     |      `fF`     |      `gG`     |      `cC`     |      `lL`     |      `zZ`     |
+| Home Row  |      `aA`     |      `oO`     |      `eE`     |      `iI`     |      `uU`     |      `dD`     |      `rR`     |      `tT`     |      `sS`     |      `nN`     |
+| Lower Row |      `pP`     |      `qQ`     |      `jJ`     |      `hH`     |      `xX`     |      `bB`     |      `mM`     |      `wW`     |      `vV`     |      `/?`     |
+|     ＊    |       ＊      |       ＊      |       ＊      |      L3       |       ＊      |       ＊      |       ＊      |       ＊      |       ＊      |       ＊      |
+| Upper Row |   `<Insert>`  |      `"`      |     `<Up>`    |      `]`      |     `<F2>`    |     `<F11>`   |       `[`     |       `)`     |      `(`      |      `~`      |
+| Home Row  |   `<Home>`    |    `<Left>`   |    `<Down>`   |   `<Right>`   |    `<END>`    |   `<Delete>`  |   `<Return>`  |     `<Tab>`   |   `<Escape>`  |      `|`      |
+| Lower Row |      `'`      |      `{`      |       `-`     |      `_`      |      `}`      | `<Backspace>` |       `=`     |       `+`     |    `` ` ``    |      `\`      |
+
 ## Variations (svg images)
 
 * neo-extended dvpe:
