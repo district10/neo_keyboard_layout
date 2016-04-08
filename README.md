@@ -43,6 +43,8 @@ Level 3:
 
 ## Variations (svg images)
 
+注：这些图已经 out dated 了，不具有参考性。以实际脚本和上面的表格为准。
+
 * neo-extended dvpe:
     + [L1][dvpe-L1]
     + [L2][dvpe-L2]
