@@ -11,3 +11,4 @@ spec.exe for normal user.
 - neo.exe = dvp.exe + spek.exe
 - dvp.exe 提供 L1，L2
 - spek.exe 提供 L3（可以和 QWERTY 结合使用）
+- np.exe neo-plain (only the greek letters)
