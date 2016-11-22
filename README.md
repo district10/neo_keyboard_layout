@@ -3,7 +3,7 @@ NEO KEYBOARD LAYOUT
 
 > Inspired by [German keyboard layout: NEO][neo-official]
 
-See <http://tangzhixiong.com/neo_keyboard_layout/>
+**See <http://tangzhixiong.com/neo_keyboard_layout/>**.
 
 ```
 Level 1, 2:
