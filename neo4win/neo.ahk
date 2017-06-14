@@ -4,7 +4,7 @@
 
 ;;;;;;;;;;;;;;;;;;;;;;;; dvorak ;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; home row
-;-> a::a
+a::a
 s::o
 d::e
 f::i
@@ -25,7 +25,6 @@ b::x
 n::b
 ,::w
 .::v
-;-> /::/
 
 ;; upper row
 q::`;
@@ -41,6 +40,7 @@ p::z
 
 ;;;;;;;;;;;;;;;;;;;;;;;; 3rd level ;;;;;;;;;;;;;;;;;;;;;;;;;
 space::space
+^space::Send {space}
 
 ; upper row
 space & q::Send {Insert}
@@ -86,13 +86,23 @@ space & 2::Send {:}
 space & 3::Send {!}
 space & 4::Send {PgDn}
 space & 5::Send {PgUp}
+space & 6::
+    if GetKeyState("CapsLock", "T") = 1
+    {
+        SetCapsLockState, off
+    }
+    else if GetKeyState("CapsLock", "F") = 0
+    {
+        SetCapsLockState, on
+    }
+return
 space & 8::Send {0}
 
 ;;;;;;;;;;;;;;;;;;;;;;;; capslock ;;;;;;;;;;;;;;;;;;;;;;;;;
 SetCapsLockState, alwaysoff
 
 *Capslock::
-Send {LControl Down}
-KeyWait, CapsLock
-Send {LControl Up}
+    Send {LControl Down}
+    KeyWait, CapsLock
+    Send {LControl Up}
 return
