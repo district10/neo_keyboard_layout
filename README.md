@@ -5,8 +5,16 @@ NEO KEYBOARD LAYOUT
 
 **See <http://tangzhixiong.com/neo_keyboard_layout/>**.
 
+## Windows
+
 Windows 上 neo 用户使用 [neo.exe](https://github.com/district10/neo_keyboard_layout/blob/master/neo4win/neo.exe) 体验，
 QWERTY 用户使用 [spek.exe](https://github.com/district10/neo_keyboard_layout/blob/master/neo4win/spek.exe) 体验。
+
+## macOS
+
+Check out [neo4mac](neo4mac).
+
+## Linux
 
 ```
 Level 1, 2:
