@@ -10,38 +10,34 @@ clear Lock
 clear control
 clear Mod3
 
-keycode 66 = Control_L          Control_L           Control_L
+keycode 66 = Super_L            Super_L             Super_L
 keycode 48 = Control_R          Control_R           Control_R
-keycode 37 = Control_L          Control_L           Control_L 
-keycode 36 = Return              Shift_Lock          Control_L 
+keycode 37 = Control_L          Control_L           Control_L
+keycode 36 = Return             Shift_Lock          Control_L
 add control = Control_R Control_L
 
 ! keycode 50 = Shift_L Shift_L
 ! keycode 62 = Shift_R Shift_R
 
-keycode 65  = ISO_Group_Shift   ISO_Group_Shift     ISO_First_Group 
+keycode 65  = ISO_Group_Shift   ISO_Group_Shift     ISO_First_Group
 add Mod3 = ISO_First_Group
 
-keycode 23 = Super_L            Super_L             Super_L 
-add Mod4 = Super_L
-
-! keycode 36 = Return    Shift_Lock 
-! keycode 22 = BackSpace   Multi_key
-
+keycode 23 = space              space               space
+add Mod4   = Super_L
 
 ! The first row (number Row)
 keycode 10 = 1                  exclam              space
-keycode 11 = 2                  at                  colon 
+keycode 11 = 2                  at                  colon
 keycode 12 = 3                  numbersign          exclam
 keycode 13 = 4                  dollar              Next
 keycode 14 = 5                  percent             Prior
 keycode 15 = 6                  asciicircum         Multi_key
-keycode 16 = 7                  ampersand           2
-keycode 17 = 8                  asterisk            0
-keycode 18 = 9                  Caps_Lock           1
-!keycode 19 = 0                 Caps_Lock           1
-keycode 20 = space              Caps_Lock           1
-!keycode 21 = =                 Caps_Lock           1
+keycode 16 = 7                  ampersand           Caps_Lock
+keycode 17 = 8                  asterisk            Tab
+keycode 18 = 9                  parenleft           parenleft
+keycode 19 = 0                  parenright          parenright
+keycode 20 = minus              underscore          underscore
+keycode 21 = equal              plus                plus
 
 ! Upper row
 keycode 24 = semicolon          colon               Insert
@@ -57,27 +53,27 @@ keycode 32 = l                  L                   parenleft
 keycode 33 = z                  Z                   asciitilde
 
 ! Home row
-keycode 38 = a                 A                   Home
-keycode 39 = o                 O                   Left
-keycode 40 = e                 E                   Down
-keycode 41 = i                 I                   Right
-keycode 42 = u                 U                   End
+keycode 38 = a                  A                   Home
+keycode 39 = o                  O                   Left
+keycode 40 = e                  E                   Down
+keycode 41 = i                  I                   Right
+keycode 42 = u                  U                   End
 
-keycode 43 = d                 D                   Delete
-keycode 44 = r                 R                   Return
-keycode 45 = t                 T                   Tab
-keycode 46 = s                 S                   Escape 
-keycode 47 = n                 N                   bar 
+keycode 43 = d                  D                   Delete
+keycode 44 = r                  R                   Return
+keycode 45 = t                  T                   Tab
+keycode 46 = s                  S                   Escape
+keycode 47 = n                  N                   bar
 
 ! Lower row
-keycode 52 = p                 P                   apostrophe
-keycode 53 = q                 Q                   braceleft
-keycode 54 = j                 J                   minus
-keycode 55 = h                 H                   underscore
-keycode 56 = x                 X                   braceright
+keycode 52 = p                  P                   apostrophe
+keycode 53 = q                  Q                   braceleft
+keycode 54 = j                  J                   minus
+keycode 55 = h                  H                   underscore
+keycode 56 = x                  X                   braceright
 
-keycode 57 = b                 B                   BackSpace
-keycode 58 = m                 M                   equal
-keycode 59 = w                 W                   plus
-keycode 60 = v                 V                   grave
-keycode 61 = slash             question            backslash
+keycode 57 = b                  B                   BackSpace
+keycode 58 = m                  M                   equal
+keycode 59 = w                  W                   plus
+keycode 60 = v                  V                   grave
+keycode 61 = slash              question            backslash

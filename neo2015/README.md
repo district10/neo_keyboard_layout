@@ -1,7 +1,7 @@
 Neo 2015 - The final
 ====================
 
-先按照 
+先按照
   https://github.com/district10/neo_keyboard_layout/tree/master/xx-alols-xcape
 的指导安装 xcape。
 
@@ -28,6 +28,12 @@ Neo 2015 - The final
 ```
 
 第三布局没有，就是普通的改造了的 dvorak。
+
+Add to your .profile:
+
+```shell
+pgrep xcape > /dev/null || (cd ~/git/neo_keyboard_layout/neo2015 && ./neo.sh)
+```
 
 Level 1
 -------
