@@ -1,0 +1,3 @@
+#!/bin/bash
+
+xmodmap ~/git/neo_keyboard_layout/neo4linux/qwerty.xmodmap
