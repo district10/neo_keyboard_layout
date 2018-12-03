@@ -17,6 +17,19 @@ Check out [neo4mac](neo4mac).
 ## Linux
 
 ```
+$cat dvorak
+#!/bin/bash
+
+xmodmap ~/git/neo_keyboard_layout/neo4linux/dvorak.xmodmap
+pkill xcape; xcape -e 'Control_L=Escape'
+
+$ cat qwerty
+#!/bin/bash
+
+xmodmap ~/git/neo_keyboard_layout/neo4linux/qwerty.xmodmap
+```
+
+```
 Level 1, 2:
 
 [             ] [             ] [             ] [             ] [             ] . [             ] [             ] [             ] [             ] [             ]
