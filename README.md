@@ -106,6 +106,16 @@ Level 3:
 * and by the way, we need [xcape](https://github.com/alols/xcape), install that first, 在 [`xx-alols-xcape`](xx-alols-xcape) 文件夹下有安装说明。
 * I use neo-extended dvpe.
 
+## 双拼
+
+<http://www.keyboard-layout-editor.com>
+
+[自然码](https://zh.wikipedia.org/wiki/%E8%87%AA%E7%84%B6%E7%A0%81)
+
+![](keyboard-layout.png)
+
+practice here: <https://api.ihint.me/shuang>
+
 ## [Roadmap](/roadmap.md)
 
 [neo-official]: http://www.neo-layout.org/
