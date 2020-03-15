@@ -7,12 +7,15 @@ NEO KEYBOARD LAYOUT
 
 ## Windows
 
-Windows 上 neo 用户使用 [neo.exe](https://github.com/district10/neo_keyboard_layout/blob/master/neo4win/neo.exe) 体验，
-QWERTY 用户使用 [spek.exe](https://github.com/district10/neo_keyboard_layout/blob/master/neo4win/spek.exe) 体验。
+For Dvorak user: [neo.exe](https://github.com/district10/neo_keyboard_layout/blob/master/neo4win/neo.exe),
+For QWERTY user, [spek.exe](https://github.com/district10/neo_keyboard_layout/blob/master/neo4win/spek.exe).
 
 ## macOS
 
+![](neo4mac/level1.png)
+
 Check out [neo4mac](neo4mac).
+Also, see my karabiner configurations (dual-role keys) [here](https://github.com/district10/.karabiner).
 
 ## Linux
 
@@ -69,6 +72,10 @@ Level 3:
 
 注：这些图已经 out dated 了，不具有参考性。以实际脚本和上面的表格为准。
 
+Note: These svgs are out dated, and I do not use the third layout anymore
+(I can't configure them on mac/win, so I focus on the first two layouts right
+now instead of utilizing the third layout only on my ubuntu).
+
 * neo-extended dvpe:
     + [L1][dvpe-L1]
     + [L2][dvpe-L2]
@@ -106,7 +113,7 @@ Level 3:
 * and by the way, we need [xcape](https://github.com/alols/xcape), install that first, 在 [`xx-alols-xcape`](xx-alols-xcape) 文件夹下有安装说明。
 * I use neo-extended dvpe.
 
-## 双拼
+## 双拼 Shuangpin Input Method
 
 <http://www.keyboard-layout-editor.com>
 
@@ -114,21 +121,21 @@ Level 3:
 
 ![](keyboard-layout.png)
 
-practice here: <https://api.ihint.me/shuang>
+check it out here: <https://github.com/district10/shuangpin-heatmap>
 
 ## [Roadmap](/roadmap.md)
 
 [neo-official]: http://www.neo-layout.org/
 [jianshu-blog]: http://jianshu.io/p/2f56bed65e5c
-[dvpe-L1]: http://gnat-tang-shared-image.qiniudn.com/neo-dvpe-L1.svg
-[dvpe-L2]: http://gnat-tang-shared-image.qiniudn.com/neo-dvpe-L2.svg
-[dvp-L1]: http://gnat-tang-shared-image.qiniudn.com/neo-dvp-L1.svg
-[dvp-L2]: http://gnat-tang-shared-image.qiniudn.com/neo-dvp-L2.svg
-[qwerty-L1]: http://gnat-tang-shared-image.qiniudn.com/neo-qwerty-L1.svg
-[qwerty-L2]: http://gnat-tang-shared-image.qiniudn.com/neo-qwerty-L2.svg
-[neo-L3]: http://gnat-tang-shared-image.qiniudn.com/neo-L3.svg
+[dvpe-L1]: res/neo-dvpe-L1.svg
+[dvpe-L2]: res/neo-dvpe-L2.svg
+[dvp-L1]: res/neo-dvp-L1.svg
+[dvp-L2]: res/neo-dvp-L2.svg
+[qwerty-L1]: res/neo-qwerty-L1.svg
+[qwerty-L2]: res/neo-qwerty-L2.svg
+[neo-L3]: res/neo-L3.svg
 
 ## Website
 
 * <http://district10.github.io/neo_keyboard_layout/>
-* <http://whudoc.qiniudn.com/neo.html>
+* <http://tangzhixiong.com/dvorak-emulate/>
