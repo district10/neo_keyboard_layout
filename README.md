@@ -119,7 +119,7 @@ now instead of utilizing the third layout only on my ubuntu).
 
 [自然码](https://zh.wikipedia.org/wiki/%E8%87%AA%E7%84%B6%E7%A0%81)
 
-![](keyboard-layout.png)
+![](https://raw.githubusercontent.com/district10/shuangpin-heatmap/master/svgs/dvorak/ziranma.svg)
 
 check it out here: <https://github.com/district10/shuangpin-heatmap>
 
